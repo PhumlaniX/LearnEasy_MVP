@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:src="@drawable/learneasylogo"
+        android:layout_marginTop="20dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Welcome"
+       android:textColor="#0D6E6A"
+       android:textSize="45dp"
+       android:textStyle="bold"
+       android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a New Account"
+        android:textColor="#0D6E6A"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

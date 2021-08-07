@@ -7,8 +7,10 @@ import java.util.List;
 import retrofit2.http.GET;
 import retrofit2.Call;
 
-public interface ApiInterface {
+interface ApiInterface {
 
     @GET("courses.json")
+    //@GET(?/courses/?format=json)
     Call<List<Category>> getAllCategory();
+    //fun getAllCourses() : Call<List<Category>>
 }

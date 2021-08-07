@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.learneasy_mvp.R
+import com.example.learneasy_mvp.core.model.Category
 import com.example.learneasy_mvp.core.model.User
 
 class UserAdapter val users: ArrayList<User>) : RecyclerView.Adapter<UserAdapter.ViewHolder>()
